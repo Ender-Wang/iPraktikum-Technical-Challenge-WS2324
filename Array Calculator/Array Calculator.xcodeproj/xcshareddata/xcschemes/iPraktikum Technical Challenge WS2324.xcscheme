@@ -17,7 +17,7 @@
                BlueprintIdentifier = "F81151672A573AD40095961C"
                BuildableName = "ArrayCalculatorApp"
                BlueprintName = "ArrayCalculatorApp"
-               ReferencedContainer = "container:iPraktikum Technical Challenge WS2324.xcodeproj">
+               ReferencedContainer = "container:Array Calculator.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -47,7 +47,7 @@
             BlueprintIdentifier = "F81151672A573AD40095961C"
             BuildableName = "ArrayCalculatorApp"
             BlueprintName = "ArrayCalculatorApp"
-            ReferencedContainer = "container:iPraktikum Technical Challenge WS2324.xcodeproj">
+            ReferencedContainer = "container:Array Calculator.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </LaunchAction>
@@ -64,7 +64,7 @@
             BlueprintIdentifier = "F81151672A573AD40095961C"
             BuildableName = "ArrayCalculatorApp"
             BlueprintName = "ArrayCalculatorApp"
-            ReferencedContainer = "container:iPraktikum Technical Challenge WS2324.xcodeproj">
+            ReferencedContainer = "container:Array Calculator.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </ProfileAction>
