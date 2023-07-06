@@ -8,6 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		F811516C2A573AD40095961C /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = F811516B2A573AD40095961C /* main.swift */; };
+		F81151732A573BE40095961C /* ArrayCalculator.swift in Sources */ = {isa = PBXBuildFile; fileRef = F81151722A573BE40095961C /* ArrayCalculator.swift */; };
+		F81151752A573C0B0095961C /* Client.swift in Sources */ = {isa = PBXBuildFile; fileRef = F81151742A573C0B0095961C /* Client.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -23,8 +25,10 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		F81151682A573AD40095961C /* hello */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = hello; sourceTree = BUILT_PRODUCTS_DIR; };
+		F81151682A573AD40095961C /* ArrayCalculatorApp */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = ArrayCalculatorApp; sourceTree = BUILT_PRODUCTS_DIR; };
 		F811516B2A573AD40095961C /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
+		F81151722A573BE40095961C /* ArrayCalculator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArrayCalculator.swift; sourceTree = "<group>"; };
+		F81151742A573C0B0095961C /* Client.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Client.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -41,7 +45,7 @@
 		F811515F2A573AD40095961C = {
 			isa = PBXGroup;
 			children = (
-				F811516A2A573AD40095961C /* hello */,
+				F811516A2A573AD40095961C /* Sources */,
 				F81151692A573AD40095961C /* Products */,
 			);
 			sourceTree = "<group>";
@@ -49,25 +53,43 @@
 		F81151692A573AD40095961C /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				F81151682A573AD40095961C /* hello */,
+				F81151682A573AD40095961C /* ArrayCalculatorApp */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		F811516A2A573AD40095961C /* hello */ = {
+		F811516A2A573AD40095961C /* Sources */ = {
+			isa = PBXGroup;
+			children = (
+				F81151772A573DA10095961C /* ArrayCalculatorApp */,
+				F81151762A573D230095961C /* ArrayCalculatorLib */,
+			);
+			path = Sources;
+			sourceTree = "<group>";
+		};
+		F81151762A573D230095961C /* ArrayCalculatorLib */ = {
+			isa = PBXGroup;
+			children = (
+				F81151722A573BE40095961C /* ArrayCalculator.swift */,
+				F81151742A573C0B0095961C /* Client.swift */,
+			);
+			path = ArrayCalculatorLib;
+			sourceTree = "<group>";
+		};
+		F81151772A573DA10095961C /* ArrayCalculatorApp */ = {
 			isa = PBXGroup;
 			children = (
 				F811516B2A573AD40095961C /* main.swift */,
 			);
-			path = hello;
+			path = ArrayCalculatorApp;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		F81151672A573AD40095961C /* hello */ = {
+		F81151672A573AD40095961C /* ArrayCalculatorApp */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = F811516F2A573AD40095961C /* Build configuration list for PBXNativeTarget "hello" */;
+			buildConfigurationList = F811516F2A573AD40095961C /* Build configuration list for PBXNativeTarget "ArrayCalculatorApp" */;
 			buildPhases = (
 				F81151642A573AD40095961C /* Sources */,
 				F81151652A573AD40095961C /* Frameworks */,
@@ -77,9 +99,9 @@
 			);
 			dependencies = (
 			);
-			name = hello;
+			name = ArrayCalculatorApp;
 			productName = hello;
-			productReference = F81151682A573AD40095961C /* hello */;
+			productReference = F81151682A573AD40095961C /* ArrayCalculatorApp */;
 			productType = "com.apple.product-type.tool";
 		};
 /* End PBXNativeTarget section */
@@ -97,7 +119,7 @@
 					};
 				};
 			};
-			buildConfigurationList = F81151632A573AD40095961C /* Build configuration list for PBXProject "hello" */;
+			buildConfigurationList = F81151632A573AD40095961C /* Build configuration list for PBXProject "iPraktikum Technical Challenge WS2324" */;
 			compatibilityVersion = "Xcode 14.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -110,7 +132,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				F81151672A573AD40095961C /* hello */,
+				F81151672A573AD40095961C /* ArrayCalculatorApp */,
 			);
 		};
 /* End PBXProject section */
@@ -121,6 +143,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				F811516C2A573AD40095961C /* main.swift in Sources */,
+				F81151732A573BE40095961C /* ArrayCalculator.swift in Sources */,
+				F81151752A573C0B0095961C /* Client.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -265,7 +289,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		F81151632A573AD40095961C /* Build configuration list for PBXProject "hello" */ = {
+		F81151632A573AD40095961C /* Build configuration list for PBXProject "iPraktikum Technical Challenge WS2324" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				F811516D2A573AD40095961C /* Debug */,
@@ -274,7 +298,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		F811516F2A573AD40095961C /* Build configuration list for PBXNativeTarget "hello" */ = {
+		F811516F2A573AD40095961C /* Build configuration list for PBXNativeTarget "ArrayCalculatorApp" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				F81151702A573AD40095961C /* Debug */,
