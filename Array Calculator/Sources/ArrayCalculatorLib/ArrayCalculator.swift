@@ -37,11 +37,11 @@ public class ArrayCalculator {
             resArray.append(firstArray[i] * secondArray[i])
         }
         // append zeros to resArray
-        if firstArray.count > minLen{
+        if firstArray.count > minLen {
             for _ in minLen..<firstArray.count {
                 resArray.append(0)
             }
-        }else if secondArray.count > minLen{
+        } else if secondArray.count > minLen {
             for _ in minLen..<secondArray.count {
                 resArray.append(0)
             }
