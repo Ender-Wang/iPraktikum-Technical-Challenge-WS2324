@@ -1,0 +1,23 @@
+disabled_rules: # List of rules to disable
+  - trailing_whitespace
+  - vertical_whitespace
+  - identifier_name
+
+opt_in_rules: # Some rules are not enabled by default
+  - empty_count
+  - empty_string
+
+excluded: # List of files to exclude
+  - Carthage
+  - Pods
+  - SwiftLint/Common/3rdPartyLib
+
+line_length:
+  warning: 120
+  error: 9999
+  ignores_function_declarations: true
+  ignores_comments: true
+  ignores_urls: true
+
+reporter: "xcode" # reporter type (xcode, json, csv, checkstyle, junit, html, emoji, sonarqube, markdown)
+
