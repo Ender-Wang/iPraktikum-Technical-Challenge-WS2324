@@ -1,9 +1,3 @@
-# iPraktikum-Technical-Challenge-WS2324
-
-My solution to Technical Challenge of iPraktikum Lab WS2324, TUM.
-
----
-
 # Challenge Description
 
 ## Array Calculator
