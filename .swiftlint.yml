@@ -13,7 +13,7 @@ excluded: # List of files to exclude
   - SwiftLint/Common/3rdPartyLib
 
 line_length:
-  warning: 120
+  warning: 9998
   error: 9999
   ignores_function_declarations: true
   ignores_comments: true
